@@ -1,4 +1,255 @@
 {
-  "updatedAt": null,
-  "articles": []
+  "updatedAt": "2026-07-13T02:32:34.630902+00:00",
+  "articles": [
+    {
+      "id": "it-0",
+      "category": "it",
+      "label": "IT関連",
+      "title": "人気声優、自身の声をAIで再現 「海賊版ボイス」に事業化で対抗 - 日本経済新聞",
+      "summary": "人気声優、自身の声をAIで再現 「海賊版ボイス」に事業化で対抗  日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LZDRoQTNFVm9zWVdkenlHcXdMVlJfM0tGbUNUUGVRRUdqWnJ3Rk05WFcxMldzVXpxeTZ3MnJoLTVSMjdCbGwxaEYwZDU5SjFGaE43akdRMWVaU2lBcENZdlF6My00Yklwc0dtMA?oc=5",
+      "time": "07/12 20:00",
+      "score": 100
+    },
+    {
+      "id": "it-1",
+      "category": "it",
+      "label": "IT関連",
+      "title": "【さくらのAIソリューション】「InfiniCloud® AI パッケージ」Ver2を提供開始 - さくらインターネット",
+      "summary": "【さくらのAIソリューション】「InfiniCloud® AI パッケージ」Ver2を提供開始  さくらインターネット",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNmF6RVphc2luMHNSZzZValN5RGIwUzkyejRHN1d5R1VYTDNzNDYtRDQwdE9xZVhrdUpOODNwNWNLVUhkUHFVcUVidnM5c3pzdDZjaGV0bnNxcVNZVndKY2g2X2tReEw0cVlkUUp0V1pEamNjQ3htTUQzeW5qTzZtbXFUN0o2ck1QQjRJ?oc=5",
+      "time": "07/13 02:00",
+      "score": 93
+    },
+    {
+      "id": "it-2",
+      "category": "it",
+      "label": "IT関連",
+      "title": "日経ビジネス、Generative AI Japanと共同で「生成AI大賞2026」を開催 - 日経BP",
+      "summary": "日経ビジネス、Generative AI Japanと共同で「生成AI大賞2026」を開催  日経BP",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FYUN3aUN2dVlUMEE0QkNhSG5UTjBFdmowcG1TRThXS3BRd1BwbGJmaTRtdlItcDUtMUlDTVM4SEJJcFFLUkRmRi1wNVE0OFdQUV9Eb3RjekdYREpaTjI2c0VQR0Y1ZVk3Z3R4dQ?oc=5",
+      "time": "07/13 02:07",
+      "score": 86
+    },
+    {
+      "id": "it-3",
+      "category": "it",
+      "label": "IT関連",
+      "title": "メタのＡＩ検出ツール、加工画像の一部識別できず＝ロイター分析 - ロイター",
+      "summary": "メタのＡＩ検出ツール、加工画像の一部識別できず＝ロイター分析  ロイター",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kd3A5SlBKZ3pZQjVjZzQ5a2Z3OEl2Y0hDdHVEZXA2WjNSeUlEdDhWaHpUd2ZmWHFhWE56anhPU2dGZ1pYNEZMa0RBNmhveDNjS29nRkJxWnFLdWV0MFZFSVA2YU8wWHhkSU9BTnFoYjZXX2VUXzF0bQ?oc=5",
+      "time": "07/13 00:52",
+      "score": 79
+    },
+    {
+      "id": "it-4",
+      "category": "it",
+      "label": "IT関連",
+      "title": "AICX協会、人事部門のAI活用・採用・評価制度を整理した「AIエージェント時代の人事白書 2026」を公開 - PR TIMES",
+      "summary": "AICX協会、人事部門のAI活用・採用・評価制度を整理した「AIエージェント時代の人事白書 2026」を公開  PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JeXV5aFkwRnd1QVVFZmVpenNPRS11NUIzbWJ3ZUlvd1dHQVlCeGkxdTc0WjZfeW9zWFJhVE5NLTNLN2xUaTAxWHF0VFZJY2Q4d0FmODBQT2VPd3VmNU1mUHpOZVlTWGNrdFE?oc=5",
+      "time": "07/13 01:00",
+      "score": 72
+    },
+    {
+      "id": "dq-0",
+      "category": "dq",
+      "label": "ドラクエ",
+      "title": "『ドラクエ』40周年記念展、ホミータの声優が小倉唯さんに決定。抱きつける巨大キングスライムやコラボレストランも発表 - 電ファミニコゲーマー",
+      "summary": "『ドラクエ』40周年記念展、ホミータの声優が小倉唯さんに決定。抱きつける巨大キングスライムやコラボレストランも発表  電ファミニコゲーマー",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5Ulo4ZzV4dUloYlJmOHJ1OEl5aEJRT2R3NTVCMnotdGxzNUJ1QS1mMjJYMDFCT0lTTy1nejNxOXV6T28zTjlXcWo1MU8yQVZNaC1CZjZhY1k?oc=5",
+      "time": "07/10 04:10",
+      "score": 100
+    },
+    {
+      "id": "dq-1",
+      "category": "dq",
+      "label": "ドラクエ",
+      "title": "「ドラクエ」のカプセルトイ「カプセリウム ドラゴンクエスト」7月第3週に発売 - GAME Watch",
+      "summary": "「ドラクエ」のカプセルトイ「カプセリウム ドラゴンクエスト」7月第3週に発売  GAME Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MN1hscUdMVXdmZGM1aHlGN1YxZUxYN1ZsODlQWFN6SFBRQnJla2pUcXRzcEJZdGxNX01lSVhiZkxMajM4QWtrU1M4ZWZ3SGNfV1V6ek5tdFhJS1h0ZG4yNVFYVi03Zw?oc=5",
+      "time": "07/11 15:00",
+      "score": 93
+    },
+    {
+      "id": "dq-2",
+      "category": "dq",
+      "label": "ドラクエ",
+      "title": "即完売の『ドラクエ』×「エイトザタラソ」グッズが7月15日より再販、一部は受注生産も決定！遊び心満載なホイミスライムのポンプデザイン - インサイド",
+      "summary": "即完売の『ドラクエ』×「エイトザタラソ」グッズが7月15日より再販、一部は受注生産も決定！遊び心満載なホイミスライムのポンプデザイン  インサイド",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hSlRuX1A2OUNHZnBiTFVNVHh1VU8zanNKVDBWVEU4NklKY1NhbU9JVUs0eGNXVV90TnlHZndHWFNJcWotbjlpbmoxRlJvRjJraG45WHNFeU5EcWVZc0JWMGYzRm4yb01mYnc?oc=5",
+      "time": "07/10 10:15",
+      "score": 86
+    },
+    {
+      "id": "dq-3",
+      "category": "dq",
+      "label": "ドラクエ",
+      "title": "ダウンロード版「ドラゴンクエスト」シリーズタイトルのセールを実施中です！ - dragonquest.jp",
+      "summary": "ダウンロード版「ドラゴンクエスト」シリーズタイトルのセールを実施中です！  dragonquest.jp",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zbGNUbWh1WF96US1Zd0swM3UtSnl2NVJBTDhkZ1pCNmN4M2JCNWo1cW1LczFlSkFIWlRicDFhbHBYUjdUY2dFWVFZUVpGVzB5SmpmRGgyNA?oc=5",
+      "time": "07/10 08:59",
+      "score": 79
+    },
+    {
+      "id": "dq-4",
+      "category": "dq",
+      "label": "ドラクエ",
+      "title": "『ドラクエタクト』生放送まとめ。6周年記念で勇者ソフィア（ドラクエ4女勇者）が登場。“極ドラゴンクエストIVナンバリングイベント”や新規コンテンツ“大過の深淵”の詳細も公開 - 電撃オンライン",
+      "summary": "『ドラクエタクト』生放送まとめ。6周年記念で勇者ソフィア（ドラクエ4女勇者）が登場。“極ドラゴンクエストIVナンバリングイベント”や新規コンテンツ“大過の深淵”の詳細も公開  電撃オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UMTZfVHNXVkQtc2h3ZXpuYjZQeUNSaGJKLUZ2czRBbnRQMUN3eU05ZWFBS3lxMGh6ZlF0NlBjN2NOZDNNUkxMb1c2NHFFRkRjYUVDT0dyc0ZNUQ?oc=5",
+      "time": "07/12 11:57",
+      "score": 72
+    },
+    {
+      "id": "festival-0",
+      "category": "festival",
+      "label": "関東の夏祭り",
+      "title": "【関東】8月30日（日）の夏祭り・イベント2026：21ページ目｜レッツエンジョイ東京 - レッツエンジョイ東京",
+      "summary": "【関東】8月30日（日）の夏祭り・イベント2026：21ページ目｜レッツエンジョイ東京  レッツエンジョイ東京",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ydF9WNXpmX3R5RWVHcTBYQ0F2aEo0QkozdFNOdGVJRy1XeDhyRU9ucVV0THAwT0ZETk0xb0pjb2YxNTBnbHJBa3cyRHNfNm1SVVlfLVJNUGdzT19HajVLcjZITGRCWWdneFZhM2hSWmJkSjg?oc=5",
+      "time": "07/12 18:55",
+      "score": 100
+    },
+    {
+      "id": "festival-1",
+      "category": "festival",
+      "label": "関東の夏祭り",
+      "title": "関東三大山車祭り　佐原の大祭夏祭り　３日間で千葉県内外から見物客３０万人超 - ｄメニューニュース",
+      "summary": "関東三大山車祭り　佐原の大祭夏祭り　３日間で千葉県内外から見物客３０万人超  ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOEE2cUxsR1Iycl9wemxINmhKRHdibVZoYUp4ZGNNSmJQb1pEdk5NWHlxaUM0REJMRmNqRFRhOVF5VHpONUlObk9fbHN0ai1sY2lpcHhoRVlqeER6RHRKeGxGc01rRGUwUEZ1SUJGdTFoSE04R1JIc0hZQlJmZ25WYUlB0gGHAUFVX3lxTE55aGdJX1pQX0szWU9JX3BiOF8wNlBjZ2ZRLWtUX3NhdnFkZTVuS1VyeFJBVWczU25KOE1lUmkyTG92aDNqTE5CMmlqQmtDWEhQblN4dEkxb3FUNThBZXBnZmtPTC1NZGZrZFBncnZXdFJqTzN6TjNKOE0yN2MzcDR6V29KZ0Z0aw?oc=5",
+      "time": "07/13 00:49",
+      "score": 93
+    },
+    {
+      "id": "festival-2",
+      "category": "festival",
+      "label": "関東の夏祭り",
+      "title": "【2026年夏】東京・関東の花火大会！日程・穴場・混雑を避けるコツまで完全ガイド - funliday.com",
+      "summary": "【2026年夏】東京・関東の花火大会！日程・穴場・混雑を避けるコツまで完全ガイド  funliday.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HMnJwLUczNUlPX0NweU1aNjJDcnRXR0pkbFMzZjJael9BRE51Z1R5QzYySF9CR2czZDdjbmhIQ3laNjFJb0FpaFNDYkVzZzNRYlIxeV9oWWJHdw?oc=5",
+      "time": "07/02 07:00",
+      "score": 86
+    },
+    {
+      "id": "festival-3",
+      "category": "festival",
+      "label": "関東の夏祭り",
+      "title": "関東三大山車祭り 佐原の大祭夏祭り ３日間で千葉県内外から見物客３０万人超 - 千葉テレビ放送",
+      "summary": "関東三大山車祭り 佐原の大祭夏祭り ３日間で千葉県内外から見物客３０万人超  千葉テレビ放送",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DSGsxbk1nVVc2NmJjTVBQR0QxSkxOU0IxaThFeUJ4RTkyU20xOTNlSl9HNXZZREY3VlIwbE4xRE9nZVNqX29iVWZqVlpLWDhWNjNEd2NPVEc3OThPbXdZ?oc=5",
+      "time": "07/13 00:49",
+      "score": 79
+    },
+    {
+      "id": "festival-4",
+      "category": "festival",
+      "label": "関東の夏祭り",
+      "title": "【関東】2026年7月11日・12日週末開催の無料イベント17選 大規模夏祭り＆フェスも満喫 - いこーよニュース",
+      "summary": "【関東】2026年7月11日・12日週末開催の無料イベント17選 大規模夏祭り＆フェスも満喫  いこーよニュース",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hQ3IzOEVoUHRzYUw2c0NlcVJhV2EyeXZtRDdFeDZIQnFJRFZma2dtb0NVZXQwUE9mVVhXMjdtclVKOHhPYV9XUjdaZmh4QllfQWx1NThTOHBjMms?oc=5",
+      "time": "07/08 22:02",
+      "score": 72
+    },
+    {
+      "id": "yokohama-0",
+      "category": "yokohama",
+      "label": "横浜イベント",
+      "title": "「YOKOHAMA UNITE 音楽祭 2026×横浜市」７月17日（金）よりキャンペーン実施！ - welcome.city.yokohama.jp",
+      "summary": "「YOKOHAMA UNITE 音楽祭 2026×横浜市」７月17日（金）よりキャンペーン実施！  welcome.city.yokohama.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE11NWR6NkNMX2lHckMtR3RsRGR0NUhnWEJBZndmXzV2cnhQbHhQeUI3bWd5SXo5bncwWUdRTVpUdjVwWi12Zkw4Z1J2dzhJcWtodVJjbWoyeFNMdkpVSE9KZ0VDZUY4bEFpNWUyczdySC1TUQ?oc=5",
+      "time": "07/13 00:25",
+      "score": 100
+    },
+    {
+      "id": "yokohama-1",
+      "category": "yokohama",
+      "label": "横浜イベント",
+      "title": "横浜バニラ、横浜高島屋店にてお子様向けおしごと体験イベントを実施！ - PR TIMES",
+      "summary": "横浜バニラ、横浜高島屋店にてお子様向けおしごと体験イベントを実施！  PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IWjBRdnRIUzY2TDlwY1Ntem53akxXOTRmNE90SjcwWGI5VWhvSkZDQUlFWkJ3ZlRXNmMxM0VDYzY4RWdhZnd2QS1wdjVXeDZYV1QtSVhONkRveWNUYU5lX3pjV0VBNEw5YlE?oc=5",
+      "time": "07/10 09:00",
+      "score": 93
+    },
+    {
+      "id": "yokohama-2",
+      "category": "yokohama",
+      "label": "横浜イベント",
+      "title": "農体験イベントカレンダー - 横浜市",
+      "summary": "農体験イベントカレンダー  横浜市",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMUlKYkVOWXBndXpIalR5aUJsUTViSmZfbW1EcmM3OFVoaGVPU0NEdjhaUm9xb3hfX2hIbHZJbXQ4THJmZmRVZmhNMVBVZGRNZGk3NlhQS2taSWlvOG9BRzJlTjMyWWZ4eXBCUHEyVjhOOEcxOVBUNDZRbjRJanFNVGtHYTNnMHhQMm5INkMwY1FzekhOU0tLZXZtVFN0QQ?oc=5",
+      "time": "07/08 07:00",
+      "score": 86
+    },
+    {
+      "id": "yokohama-3",
+      "category": "yokohama",
+      "label": "横浜イベント",
+      "title": "ライブやイベント多く 25年横浜の観光客数、消費額が過去最高 - 毎日新聞",
+      "summary": "ライブやイベント多く 25年横浜の観光客数、消費額が過去最高  毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MZVp0eFotNi1GUTFFYjlEM1g0bU52TDBzQXpzN2gweGJaMUEzXzREeVM2eVJfaDZQMFFuV1hwY3B1clE1eUx5VFZzZ2dJNkJ5M0hPVG94MVB2NW5TNUhEWWhCc3RtRzlf?oc=5",
+      "time": "07/11 22:45",
+      "score": 79
+    },
+    {
+      "id": "yokohama-4",
+      "category": "yokohama",
+      "label": "横浜イベント",
+      "title": "横浜やみなとみらいの花火・イベント情報満載の「横浜花火＆夏祭り特集2026」公開中！ - PR TIMES",
+      "summary": "横浜やみなとみらいの花火・イベント情報満載の「横浜花火＆夏祭り特集2026」公開中！  PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42TEY4emN4SDZzTHBNVng0R0htMDQ2by05YlRHNHhFSld0ZHdmZE5qLVljTXNVR1FxV0NkTXVkUXBwZ01aSjJIMkRMWHl2RjFkYjJzNTFHOFpuZEdDeFFsekhERVBWeVc4emc?oc=5",
+      "time": "07/10 01:00",
+      "score": 72
+    },
+    {
+      "id": "top-0",
+      "category": "top",
+      "label": "トップニュース",
+      "title": "SVリーグ参戦のフラーゴラッド鹿児島が新体制発表…外国人選手4人や元所属の笠利選手ら加入 トップスポンサーにニップンも - Yahoo!ニュース",
+      "summary": "SVリーグ参戦のフラーゴラッド鹿児島が新体制発表…外国人選手4人や元所属の笠利選手ら加入 トップスポンサーにニップンも  Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFTzR1akhYQlB4b2JWdWNmWHFPdHFvQWNmZXo1M3NRb20tRTdXRnV1eFVUZGpVOTAzN3JHRDRvcmJmRFNjUklIc0lsWUFSQkZBMTZIdVhxWHF0UmxaTWhuYVNGRi01Wmh6Q1V0UWd0OF9jUElBblVYWGRDR3RHLUE?oc=5",
+      "time": "07/03 10:15",
+      "score": 100
+    },
+    {
+      "id": "top-1",
+      "category": "top",
+      "label": "トップニュース",
+      "title": "日本企業の海外市場向けマーケティングを支援する「アウトバウンド事業本部」を新設 - cyberagent.co.jp",
+      "summary": "日本企業の海外市場向けマーケティングを支援する「アウトバウンド事業本部」を新設  cyberagent.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yaWp4OUtLWEVyZWtjMlNtemVwNGhITjd1aXFlODJMaWNMdUQ4SEM0WG9ERTNFRTZpNS1Bb3dnZHZpb3J4THY4RkZvWkNrX1ZfS0NYVGZMMGdqSGVjaWc?oc=5",
+      "time": "04/16 07:00",
+      "score": 93
+    },
+    {
+      "id": "top-2",
+      "category": "top",
+      "label": "トップニュース",
+      "title": "高市人気、海外でも？「G7首脳ら相次ぎ来日」など3本をお届けします - 日本経済新聞",
+      "summary": "高市人気、海外でも？「G7首脳ら相次ぎ来日」など3本をお届けします  日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SaDh5XzFSbnNuUVpDOHlqekZsVEhKS2JuOUE4a0RtSVE0a3JJdUFZVHdUSWtHQzNEaFRxVjdpYnJvRnQ3dWtVanVQSEgtZkh2eWNTNDRCam1Pa3RZd0JRYTBFTnF3SmJ4ZTIzQVQyTzJaYThHZGtXcjcyWW1NUQ?oc=5",
+      "time": "03/25 07:00",
+      "score": 86
+    },
+    {
+      "id": "top-3",
+      "category": "top",
+      "label": "トップニュース",
+      "title": "台湾ビジネスの情報サポート - ys-consulting.com.tw",
+      "summary": "台湾ビジネスの情報サポート  ys-consulting.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FWFlkN1YyYjBORFdKbkdRcFBiYlF2WEVEbjhZalZqYjhrWGM1U2NtUFVGSkxwVDFUWW1ROXc0bUhEWmJRb0YySk0waTVmVl9fYzhNWlZ6RzFVaWg5Z0E?oc=5",
+      "time": "01/27 08:00",
+      "score": 79
+    },
+    {
+      "id": "top-4",
+      "category": "top",
+      "label": "トップニュース",
+      "title": "「makeshop」、越境EC支援サービス「Japan Finds」提供開始 海外主要ECモールに無料で出品可能 - 日本ネット経済新聞",
+      "summary": "「makeshop」、越境EC支援サービス「Japan Finds」提供開始 海外主要ECモールに無料で出品可能  日本ネット経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53SFEweGZpUjEtOEpEXzRCMWh4UWpZVWNDa1hqWE03d0dpZ3RNQWZ1YzhGcXFLaklROHFtZUJ3TmpqMkpCMktyVnNDVEJFeG0xN0hGbXhB?oc=5",
+      "time": "02/09 05:03",
+      "score": 72
+    }
+  ]
 }
