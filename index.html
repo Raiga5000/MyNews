@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>MyNews | 自分専用ニュース</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MyNews トップへ">
+        <span class="brand-mark">M</span><span>MyNews</span>
+      </a>
+      <p class="edition">PERSONAL EDITION</p>
+      <time id="today" class="today"></time>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">YOUR DAILY BRIEFING</p>
+        <h1 id="page-title">気になることだけ、<br /><em>今日のニュースに。</em></h1>
+        <p class="intro">IT、ドラクエ、夏祭り、横浜のイベント、国内外のトップニュース。<br />あなたのために選んだ情報を、毎朝ひとつの場所へ。</p>
+        <div class="update-status"><span class="pulse" aria-hidden="true"></span><span>最終更新: 毎日 00:00</span><span class="dot">•</span><span id="article-total"></span></div>
+      </section>
+
+      <section class="controls" aria-label="ニュースの表示設定">
+        <div class="category-row" role="group" aria-label="カテゴリで絞り込み">
+          <button class="filter active" data-category="all">すべて <span>25</span></button>
+          <button class="filter" data-category="it">IT関連</button>
+          <button class="filter" data-category="dq">ドラクエ</button>
+          <button class="filter" data-category="festival">関東の夏祭り</button>
+          <button class="filter" data-category="yokohama">横浜イベント</button>
+          <button class="filter" data-category="top">トップニュース</button>
+        </div>
+        <div class="sort-row" role="group" aria-label="並び順">
+          <span class="sort-label">表示順</span>
+          <button class="sort active" data-sort="newest">新着順</button>
+          <button class="sort" data-sort="recommended">おすすめ順</button>
+        </div>
+      </section>
+
+      <section class="news-section" aria-live="polite">
+        <div class="section-heading"><p id="result-label">すべてのニュース</p><p id="result-count"></p></div>
+        <div id="news-list" class="news-list"></div>
+        <p id="empty-state" class="empty-state" hidden>このカテゴリのニュースはまだありません。</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>MYNEWS / PERSONAL NEWS DESK</span>
+      <span>好きな情報だけを、静かに。</span>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
