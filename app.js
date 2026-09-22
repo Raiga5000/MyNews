@@ -1,7 +1,7 @@
 export let articles = [];
 
-const colors = { it:['#e0f0ff','#136388'], security:['#e8e6f7','#3f3f8f'], network:['#dcf1f3','#10606b'], yokohama:['#dff4ed','#19745a'], outing:['#fff0d9','#9a5810'], top:['#ffe4e2','#b0453d'] };
-const labels = { all:'すべてのニュース', it:'IT関連ニュース', security:'セキュリティ', network:'通信技術', yokohama:'横浜イベント', outing:'おでかけ', top:'トップニュース' };
+const colors = { it:['#e0f0ff','#136388'], security:['#e8e6f7','#3f3f8f'], network:['#dcf1f3','#10606b'], outing:['#fff0d9','#9a5810'], jp:['#ffe4e2','#b0453d'], world:['#dff4ed','#19745a'] };
+const labels = { all:'すべてのニュース', it:'IT関連ニュース', security:'セキュリティ', network:'通信技術', outing:'おでかけ', jp:'日本のトップ', world:'世界のトップ' };
 export function filterAndSort(items, category, sort) {
   const filtered = category === 'all' ? items : items.filter(item => item.category === category);
   const limited = category === 'all'
