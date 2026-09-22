@@ -13,18 +13,40 @@ if errorlevel 1 (
   goto done
 )
 
+rem A crashed or interrupted git leaves index.lock behind and blocks everything.
+rem Clear it only when no rebase or merge is actually in progress.
+if exist ".git\index.lock" (
+  if exist ".git\rebase-merge" goto locked
+  if exist ".git\rebase-apply" goto locked
+  if exist ".git\MERGE_HEAD" goto locked
+  echo [0/4] Removing a stale .git\index.lock left by an interrupted git...
+  del /f /q ".git\index.lock"
+  echo.
+)
+goto staging
+
+:locked
+echo [ERROR] A rebase or merge is in progress, so the lock was left alone.
+echo         Finish it with: git rebase --continue   (or: git rebase --abort)
+goto done
+
+:staging
 echo [1/4] Staging local changes...
 git add -A
+if errorlevel 1 (
+  echo [ERROR] Could not stage changes.
+  goto done
+)
 git diff --staged --quiet
 if errorlevel 1 (
-  git commit -m "fix: publishedAt output, source links and mobile tweaks"
+  git commit -m "chore: local updates"
   if errorlevel 1 (
     echo [ERROR] Commit failed.
     goto done
   )
   echo       committed.
 ) else (
-  echo       nothing to commit.
+  echo       nothing new to commit.
 )
 echo.
 
