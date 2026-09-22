@@ -13,9 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
 CATEGORIES = {
     "it": ("IT関連", "IT OR AI OR テクノロジー", "JA"),
-    "dq": ("ドラクエ", "ドラゴンクエスト OR ドラクエ", "JA"),
-    "festival": ("関東の夏祭り", "関東 夏祭り OR 花火大会", "JA"),
+    "security": ("セキュリティ", "セキュリティ インシデント OR 情報漏洩 OR 不正アクセス OR 脆弱性", "JA"),
+    "network": ("通信技術", "通信技術 OR 6G OR 5G OR 光通信 OR 衛星通信", "JA"),
     "yokohama": ("横浜イベント", "横浜 イベント", "JA"),
+    "outing": ("おでかけ", "東京 おでかけスポット OR 横浜 おでかけスポット OR 東京 新名所 OR 横浜 夜景", "JA"),
     "top": ("トップニュース", "日本 海外 主要ニュース", "JA"),
 }
 
@@ -31,15 +32,18 @@ def fetch_category(category, label, query, country):
     articles = []
     for rank, item in enumerate(root.findall("./channel/item")[:5]):
         published = item.findtext("pubDate", "")
+        date = None
         try:
             date = parsedate_to_datetime(published).astimezone(timezone.utc)
-            time_text = date.astimezone().strftime("%m/%d %H:%M")
         except (TypeError, ValueError):
-            time_text = published
+            pass
+        time_text = datetime.now().astimezone().strftime("%m/%d %H:%M")
         articles.append({
             "id": f"{category}-{rank}", "category": category, "label": label,
             "title": clean(item.findtext("title")), "summary": clean(item.findtext("description")),
-            "url": item.findtext("link", "#"), "time": time_text, "score": max(60, 100 - rank * 7),
+            "url": item.findtext("link", "#"), "time": time_text,
+            "publishedAt": date.isoformat() if date else "",
+            "score": max(60, 100 - rank * 7),
         })
     return articles
 

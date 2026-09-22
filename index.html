@@ -16,6 +16,7 @@
         <span class="brand-mark">M</span><span>MyNews</span>
       </a>
       <p class="edition">PERSONAL EDITION</p>
+      <span class="private-badge" title="このサイトは自分専用として設定されています">🔒 非公開</span>
       <time id="today" class="today"></time>
     </header>
 
@@ -23,7 +24,7 @@
       <section class="hero" aria-labelledby="page-title">
         <p class="eyebrow">YOUR DAILY BRIEFING</p>
         <h1 id="page-title">気になることだけ、<br /><em>今日のニュースに。</em></h1>
-        <p class="intro">IT、ドラクエ、夏祭り、横浜のイベント、国内外のトップニュース。<br />あなたのために選んだ情報を、毎朝ひとつの場所へ。</p>
+        <p class="intro">IT、セキュリティ、通信技術、横浜のイベント、おでかけ、国内外のトップニュース。<br />あなたのために選んだ情報を、毎朝ひとつの場所へ。</p>
         <div class="update-status"><span class="pulse" aria-hidden="true"></span><span>最終更新: 毎日 00:00</span><span class="dot">•</span><span id="article-total"></span></div>
       </section>
 
@@ -31,9 +32,10 @@
         <div class="category-row" role="group" aria-label="カテゴリで絞り込み">
           <button class="filter active" data-category="all">すべて <span>25</span></button>
           <button class="filter" data-category="it">IT関連</button>
-          <button class="filter" data-category="dq">ドラクエ</button>
-          <button class="filter" data-category="festival">関東の夏祭り</button>
+          <button class="filter" data-category="security">セキュリティ</button>
+          <button class="filter" data-category="network">通信技術</button>
           <button class="filter" data-category="yokohama">横浜イベント</button>
+          <button class="filter" data-category="outing">おでかけ</button>
           <button class="filter" data-category="top">トップニュース</button>
         </div>
         <div class="sort-row" role="group" aria-label="並び順">
@@ -46,7 +48,7 @@
       <section class="news-section" aria-live="polite">
         <div class="section-heading"><p id="result-label">すべてのニュース</p><p id="result-count"></p></div>
         <div id="news-list" class="news-list"></div>
-        <p id="empty-state" class="empty-state" hidden>このカテゴリのニュースはまだありません。</p>
+        <p id="empty-state" class="empty-state" hidden>このカテゴリのニュースはまだありません。GitHub Actions の「Update news」を実行すると最新記事を取得できます。</p>
       </section>
     </main>
 
