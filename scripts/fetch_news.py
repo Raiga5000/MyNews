@@ -22,23 +22,19 @@ JA = {"hl": "ja", "gl": "JP", "ceid": "JP:ja"}
 # "limit" is how many CANDIDATES to collect, not how many are published.
 CATEGORIES = {
     "it": {
+        # Google News' own technology section (Japanese edition): it already
+        # carries the biggest IT stories from Japan and abroad, including
+        # security and telecoms, so one feed covers what used to be three.
         "label": "IT関連",
-        "query": "IT OR AI OR テクノロジー",
-        "limit": 10,
+        "feed": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ja&gl=JP&ceid=JP:ja",
+        "limit": 12,
     },
-    "security": {
-        "label": "セキュリティ",
-        "query": "セキュリティ インシデント OR 情報漏洩 OR 不正アクセス OR 脆弱性",
-        "limit": 10,
-    },
-    "network": {
-        "label": "通信技術",
-        "query": "通信技術 OR 6G OR 5G OR 光通信 OR 衛星通信",
-        "limit": 10,
-    },
-    "outing": {
-        "label": "おでかけ",
-        "query": "東京 おでかけスポット OR 神奈川 おでかけスポット OR 東京 新名所 OR 神奈川 新名所 OR 横浜 夜景",
+    "civics": {
+        # Candidate pool for 公務員試験の時事問題. Deliberately skewed towards
+        # the themes those exams draw on: law changes, cabinet decisions,
+        # white papers, social security, taxation, diplomacy, environment.
+        "label": "時事対策",
+        "query": "法改正 OR 閣議決定 OR 白書 OR 社会保障 OR 税制改正 OR 国際会議 OR 安全保障 OR 環境政策",
         "limit": 12,
     },
     "jp": {
